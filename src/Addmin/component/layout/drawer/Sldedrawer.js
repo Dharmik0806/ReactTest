@@ -123,8 +123,8 @@ export default function Sidedwawer({ children }) {
                 open={open}
             >
                 <DrawerHeader>
-                    <IconButton onClick={handleDrawerClose}>
-                        {theme.direction === 'rtl' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+                    <IconButton onClick={handleDrawerClose} sx={{left:"180px"}}>
+                        {theme.direction === 'rtl' ? <HomeIcon /> : <HomeIcon  />}
                     </IconButton>
                 </DrawerHeader>
                 <Divider />
